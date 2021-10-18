@@ -101,6 +101,20 @@ The size table illustrates categories and segments by proportion of sales.
 
 ## See the complete interactive dashboard [here]
 
+### Main takeaways from this project thus far:
+
+1. Both 'games' and 'steam' were adequately-sized datasets
+2. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, Title formatting)
+3. 'games' proved to be very inconsistent - only 36 NaNs in one column, over 37000 NaNs in another column
+
+
+Personal thoughts:
+
+1. 'steam' was pleasant to work with, and was prioritized for its sales data
+2. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
+2. To allow for more creativity/flexibility, I hope to work with larger, more consistent datasets in the future
+3. Looking forward to plotting this out in Tableau!
+
 </details>
 
 [Tableau]: https://public.tableau.com/app/profile/andrew.bruening
