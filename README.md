@@ -12,7 +12,7 @@
 ## The Top 1000 Most Successful Video Game Titles by Year, Platform, and Publisher.
 
 ![](Dashboard_Screenshots/platforms.png)
-This readme includes various screenshots, but you can see the actual dashboard [here].
+This readme includes various screenshots, but you can view the actual dashboard [here].
 
 ## Approach
 1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
@@ -33,9 +33,9 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
-![](Dashboard_Screenshots/loyalty_groups_16x9.png)
-
-
+![](Dashboard_Screenshots/publishers.png)
+![](Dashboard_Screenshots/subsets.png)
+![](Dashboard_Screenshots/regions.png)
 
 ## Data Insights
 
