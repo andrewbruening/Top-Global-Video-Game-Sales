@@ -11,7 +11,7 @@
 
 ## The Top 1000 Most Successful Video Game Titles by Year, Platform, and Publisher.
 
-![](Dashboard_Screenshots/games_dashboard.gif)
+![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
 
 ## Approach
