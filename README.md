@@ -19,6 +19,12 @@ This readme includes various screenshots, but you can view the actual dashboard 
 2. The dashboard was designed in Figma and built in Tableau. It includes the aforementioned loyalty groups as well as a visualization detailing k-means clustering.
 3. Insights were derived from various graphs in the dashboard and noted in both the **data insights** section of this readme, and the tooltips within the dashboard's sidebar.
 
+
+![](Dashboard_Screenshots/platform_bar_desc.png)
+- Each shade of blue represents a different genre within each platform (ordered by # of units sold)
+- In Tableau, hover tooltips will display for each genre, as well as for the controller icons which display stats for that platform across all genres
+- This was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
+
 ## Customer Segmentation and RFM Modeling
 
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
