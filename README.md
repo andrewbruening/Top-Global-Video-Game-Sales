@@ -9,7 +9,7 @@
 - 🧠 I'm interested in how our social climate and media trends influence marketing needs
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
-## The Top 1000 Most Successful Video Game Titles by Year, Platform, Publisher, and Region.
+## The Top 1000 Most Successful Video Game Titles by Year, Platform, Publisher, Genre, and Region.
 
 ![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
@@ -20,14 +20,18 @@ This readme includes various screenshots, but you can view the actual dashboard 
 3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for use in Tableau.
 4. The dashboard's background/style was designed in Figma then built in Tableau.
 
+## Dashboard Highlights
 
+**The Platform/Genre Bar Graph** 
 ![](Dashboard_Screenshots/platform_bar_gif.gif)
 - This graph was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
 - Each shade of blue represents a different genre within each platform, ordered by # of sales. 
 - Tooltips can be accessed by hovering. Controller icons display similar platform stats (excluding genres)
 - Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
 
-## Customer Segmentation and RFM Modeling
+## Dashboard Highlights
+
+**The Platform/Genre Bar Graph**
 
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
 
