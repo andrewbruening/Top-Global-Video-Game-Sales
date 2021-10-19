@@ -34,7 +34,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
 ![](Dashboard_Screenshots/publishers.png)
-![](Dashboard_Screenshots/subsets.png)
+![](Dashboard_Screenshots/subgroups.png)
 ![](Dashboard_Screenshots/regions.png)
 
 ## Data Insights
