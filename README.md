@@ -22,9 +22,8 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 
 ![](Dashboard_Screenshots/platform_bar_desc.png)
-- Each shade of blue represents a different genre within each platform (ordered by # of units sold)
-- In Tableau, hover tooltips will display for each genre, as well as for the controller icons (exclude genres)
-- This was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
+- This graph was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
+- Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
 
 ## Customer Segmentation and RFM Modeling
 
