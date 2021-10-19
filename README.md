@@ -15,14 +15,15 @@
 This readme includes various screenshots, but you can view the actual dashboard [here].
 
 ## Approach
-1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
-2. The dashboard was designed in Figma and built in Tableau. It includes the aforementioned loyalty groups as well as a visualization detailing k-means clustering.
-3. Insights were derived from various graphs in the dashboard and noted in both the **data insights** section of this readme, and the tooltips within the dashboard's sidebar.
+1. Python was used to clean two datasets ('steam' and 'games) which both containedvarious measures of video game data. There were many inconsistencies in game titles which could not have been cleaned without heavily relying on regex. Lambda functions were preferred.
+2. Throughout the cleaning process, a few original functions were written and used repeatedly to monitor the effectiveness of NaN removal strategies.
+3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for easier use in Tableau.
+4. The dashboard's background/aesthetic/style was designed in Figma, then functionally built in Tableau.
 
 
 ![](Dashboard_Screenshots/platform_bar_desc.png)
 - Each shade of blue represents a different genre within each platform (ordered by # of units sold)
-- In Tableau, hover tooltips will display for each genre, as well as for the controller icons which display stats for that platform across all genres
+- In Tableau, hover tooltips will display for each genre, as well as for the controller icons (exclude genres)
 - This was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
 
 ## Customer Segmentation and RFM Modeling
