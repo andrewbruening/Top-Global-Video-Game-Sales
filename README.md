@@ -38,7 +38,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
     Rows: COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
      
 - While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. 
-- Nevertheless, tackling juxtaposition with this visualization turned out to be a great choice. I'm very satisfied with the result.
+- Nevertheless, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
 ## Dashboard Highlights
 
 **The Platform/Genre Bar Graph**
