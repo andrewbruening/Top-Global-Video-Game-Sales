@@ -39,7 +39,6 @@ This readme includes various screenshots, but you can view the actual dashboard 
      
 - While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. 
 - Nevertheless, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
-## Dashboard Highlights
 
 **Publisher Bubble Chart**
 ![](Dashboard_Screenshots/publishers_gif.gif)
@@ -55,9 +54,15 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
-![](Dashboard_Screenshots/publishers.png)
-![](Dashboard_Screenshots/subgroups.png)
+**High-Spend Corporate Tech**
 ![](Dashboard_Screenshots/regions.png)
+
+
+
+
+
+![](Dashboard_Screenshots/subgroups.png)
+
 
 ## Data Insights
 
