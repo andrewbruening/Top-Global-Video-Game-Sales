@@ -30,7 +30,6 @@ This readme includes various screenshots, but you can view the actual dashboard 
 - Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
 
 **Overlapping Circle Graph** 
-![](Dashboard_Screenshots/overlapping_circle_16x9.png)
 ![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
 - Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills for this visual.
  
@@ -38,22 +37,13 @@ This readme includes various screenshots, but you can view the actual dashboard 
      
     Rows: COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
      
-- While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. 
-- Nevertheless, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
+- While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. Building it in Tableau was less than intuitive, but it's important to note that the circles **are** proportional to each subgroup's sales totals.
+- In conclusion, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
 
 **Publisher Bubble Chart**
 ![](Dashboard_Screenshots/publishers_gif.gif)
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
 
-| Loyalty | Requirement | Score e.g. | Tier | Description |
-| :--------- | :--------- | :--------- | :--------- | :--------- |
-| **Platinum** | All scores = 4 | 444 | High | highest-scoring, most loyal customers
-| **Gold** | All scores >= 3 | 333, 344 | High | very loyal, second only to Platinum
-| **Silver** | Moderate R/F/M | 133, 324 | High | represents the dependable majority
-| **New** | High R; Low M | 411, 431 | Low | made their first purchase recently, or their first purchase in a very long time
-| **High-Spend** | High M; Low R/F | 113, 214 | Low | top 25% of sales, large purchases but very infrequent, not considered loyal
-| **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
-| **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
 **High-Spend Corporate Tech**
 ![](Dashboard_Screenshots/regions.png)
@@ -72,11 +62,11 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 Initially, it was assumed that many High-Spend customers were one-off bargain-shoppers. 
 After reviewing our data, we arrived at a different conclusion. 
 
-- The average discount of High-Spend customers was well below the mean: 13.88% < 15.75%. 
+- **Wii Sports** earned its place as the #1 best-selling title. While other platforms focused efforts on online, multiplayer, multiplatform franchises, Nintendo doubled down on local multiplayer with its groundbreaking motion-activated IPs.
 
-- It was more than just promotions that attracted these customers.
+- **Deep Pockets:** The hyper-portable Nintendo DS became the perfect addition to Japan's on-the-go pedestrian communities, made-official by its status as their most successful platform.
 
-- High-Spend customers strongly preferred Corporate and Consumer Tech products over other categories and segments. Corporate customers likely came became one-time purchasers when outfitting their properties with our products. This knowledge will give us the precision to target these customers more successfully.
+- **Franchise Families:** Mario, Pokémon, Call of Duty, and Grand Theft Auto have all become household names. These franchises have transcended generations for decades, and are largely responsible for the success of their platforms.
 ![](Dashboard_Screenshots/kpi_grid.png)
 
 
