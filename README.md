@@ -31,7 +31,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 **Overlapping Circle Graph** 
 ![](Dashboard_Screenshots/overlapping_circle_16x9.png)
-![](Dashboard_Screenshots/overlapping_circle_16x9_2.png)
+![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
 - Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills for this visual.
  
     Columns: SIN([Index -1]*PI()/180)*[TC Value]
