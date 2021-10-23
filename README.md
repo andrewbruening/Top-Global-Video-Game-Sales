@@ -41,8 +41,8 @@ This readme includes various screenshots, but you can view the actual dashboard 
 - Nevertheless, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
 ## Dashboard Highlights
 
-**The Platform/Genre Bar Graph**
-
+**Publisher Bubble Chart**
+![](Dashboard_Screenshots/publishers_gif.gif)
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
 
 | Loyalty | Requirement | Score e.g. | Tier | Description |
