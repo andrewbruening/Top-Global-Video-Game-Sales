@@ -14,11 +14,13 @@
 ![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
 
+
 ## Approach
 1. Python was used to clean two datasets ('steam' and 'games') which both contained various measures of video game data. There were many inconsistencies in game titles which could not have been cleaned without heavily relying on regex. Lambda functions were preferred.
 2. Throughout the cleaning process, a few original functions were written and used repeatedly to monitor the effectiveness of NaN removal strategies.
 3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for use in Tableau.
 4. The dashboard's background/style was designed in Figma then built in Tableau.
+
 
 ## Dashboard Highlights
 
@@ -33,19 +35,17 @@ This readme includes various screenshots, but you can view the actual dashboard 
 ![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
 - Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills for this visual.
  
-    Columns: SIN([Index -1]*PI()/180)*[TC Value]
+    **Columns:** SIN([Index -1]*PI()/180)*[TC Value]
      
-    Rows: COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
+    **Rows:** COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
      
 - While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. Building it in Tableau was less than intuitive, but it's important to note that the circles **are** proportional to each subgroup's sales totals.
 - In conclusion, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
 
 **Publisher Bubble Chart**
 ![](Dashboard_Screenshots/publishers_gif.gif)
-The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
+I was interested to see how each Publisher found their niche within their respective genres. We know that Nintendo is world-famous for their IP platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their other genres?
 
-
-**High-Spend Corporate Tech**
 
 ## Data Insights
 
@@ -57,7 +57,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 
 - **Publisher Priorities:** The top 3 publishers (Nintendo, EA, Activition) dominated the markets for their own respective genres (Platformer, Sports, Shooter). Each of these genres became each publisher's #1 genre by a longshot. *(see Publishers)*
 
-- *The Shift in Shooters:* The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
+- **The Shift in Shooters:** The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
 
 ![](Dashboard_Screenshots/kpi_grid.png)
 
