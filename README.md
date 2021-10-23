@@ -44,7 +44,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 **Publisher Bubble Chart**
 ![](Dashboard_Screenshots/publishers_gif.gif)
-I was interested to see how each Publisher found their niche within their respective genres. We know that Nintendo is world-famous for their IP platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their other genres?
+I was interested to see how each Publisher found their niche within their respective genres. We know that Nintendo is world-famous for their IP platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their priorities?
 
 
 ## Data Insights
@@ -59,69 +59,19 @@ I was interested to see how each Publisher found their niche within their respec
 
 - **The Shift in Shooters:** The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
 
-![](Dashboard_Screenshots/kpi_grid.png)
-
-
-These graphs aim to give perspective to the varying loyalty groups as we compare and contrast them. Similar to RFM scores, clusters are graded on an increasing scale from 1-4..
-
-- Silver and Gold are the most influential groups with regards to total profit. Platinum and High-Spend are the most valuable per customer.
-
-- K-means clustering displays the variance within groups and where they overlap. 
-
-- Parts of High-Spend, Silver and Churn Risk all belong to Cluster 3 (hover to see tooltip) - our model interprets each group to be statistically similar to a certain degree. With proper targeting, Silver is a group we'd aim to grow and maintain. A future comparison will ideally show the "fringe" customers of High-Spend and Churn Risk to have ultimately moved into the Silver group. 
-
-![](Dashboard_Screenshots/kmeans_clustering.png)
-![](Dashboard_Screenshots/highspend_cust.png)
-
-
-**Distribution Comparisons**
-
-The ternary graph illustrates customer representation per RFM score.
-Switch the graph to off to view the distribution as a matrix.
-
-- The dropdown menu above the ternary graph filters results by loyalty groups. The High and Low options reflect the tiers of each group and correspond to a column value in the RFM Scoring Key.
-
-- Color saturation in the RFM matrix is directly correlated to monetary (M) values of each cell. While the lowest RFM scores (111) reflect low monetary values, Churning still represents 10% of our customers.
-
-![](Dashboard_Screenshots/matrix_ternary.png)
-
-
-**YoY Comparison**
-
-In November and December of 2018, Churning customers were responsible for a total of $0.00 in sales.
-
-- This is a sign that we need to conduct our customer retention efforts differently - especially during the holiday season. 2017 performance during these same months was much higher, mostly due to Consumer Furniture purchases.
-
-![](Dashboard_Screenshots/sales_distribution.png)
-
-
-**B2C Prioritization**
-
-The spreadsheet below elaborates on specific values per Customer ID.
-The size table illustrates categories and segments by proportion of sales.
-
-- A large portion of Gold and Silver sales are derived from Consumer products of all segments. Home Office products are consistently the least successful products across the board.
-
-- We previously touched on the success of Corporate and Consumer Technology with High-Spend customers. While a new emphasis on B2B may seem enticing, Corporate Technology sales do not account for a large enough portion of our total sales in order for us to pivot our strategy in that direction. Consumer products should still remain our primary focus.
-
-![](Dashboard_Screenshots/segment_details.png)
-
-
-## See the complete interactive dashboard [here]
-
-### Main takeaways from this project thus far:
+### Looking Back:
 
 1. Both 'games' and 'steam' were adequately-sized datasets
-2. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, Title formatting)
-3. 'games' proved to be very inconsistent - only 36 NaNs in one column, over 37000 NaNs in another column
+2. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
+3. The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with as thorough regex and merges in the way that I did -- Noted!
+4. 'steam' was pleasant to work with, and was prioritized for its sales data
+5. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
 
+### Moving Forward:
 
-Personal thoughts:
+1. These datasets didn't include the measures necessary for a financial analysis. In the future, I'd like to work with a dataset that provides insight into how publishers prioritize budgets for certain franchises with regards to their profit margins. With the proper data, I'd like to see tiered lists for publishers and their respective franchises (e.g. Nintendo's Tier 1 would surely include the Mario franchise. How would other franchises like Kirby, Metroid, Zelda, etc. rank?)
 
-1. 'steam' was pleasant to work with, and was prioritized for its sales data
-2. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
-2. To allow for more creativity/flexibility, I hope to work with larger, more consistent datasets in the future
-3. Looking forward to plotting this out in Tableau!
+## See the complete interactive dashboard [here]
 
 </details>
 
