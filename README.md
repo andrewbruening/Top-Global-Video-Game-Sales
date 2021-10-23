@@ -46,29 +46,18 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 
 
 **High-Spend Corporate Tech**
-![](Dashboard_Screenshots/regions.png)
-
-
-
-
-
-![](Dashboard_Screenshots/subgroups.png)
-
 
 ## Data Insights
-
-**High-Spend Corporate Tech**
-
-Initially, it was assumed that many High-Spend customers were one-off bargain-shoppers. 
-After reviewing our data, we arrived at a different conclusion. 
 
 - **Wii Sports** earned its place as the #1 best-selling title. While other platforms focused efforts on online, multiplayer, multiplatform franchises, Nintendo doubled down on local multiplayer with its groundbreaking motion-activated IPs. *(see Platforms)*
 
 - **Deep Pockets:** The hyper-portable Nintendo DS became the perfect addition to Japan's on-the-go pedestrian communities, made-official by its status as their most successful platform. *(see Subgroups)*
 
-- **Franchise Families:** Mario, Pokémon, Call of Duty, and Grand Theft Auto have all become household names. These franchises have transcended generations for decades, and are largely responsible for the success of their platforms.*(see Subgroups)*
+- **Franchise Families:** Mario, Pokémon, Call of Duty, and Grand Theft Auto have all become household names. These franchises have transcended generations for decades, and are largely responsible for the success of their platforms. *(see Subgroups)*
 
 - **Publisher Priorities:** The top 3 publishers (Nintendo, EA, Activition) dominated the markets for their own respective genres (Platformer, Sports, Shooter). Each of these genres became each publisher's #1 genre by a longshot. *(see Publishers)*
+
+- *The Shift in Shooters:* The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
 
 ![](Dashboard_Screenshots/kpi_grid.png)
 
