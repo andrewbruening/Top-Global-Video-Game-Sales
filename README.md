@@ -31,12 +31,14 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 **Overlapping Circle Graph** 
 ![](Dashboard_Screenshots/overlapping_circle_16x9.png)
-- Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my rows and columns for this visual.
+- Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my rows and columns pills for this visual.
  
     Columns: SIN([Index -1]*PI()/180)*[TC Value]
+     
     Rows: COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
-- I've learned that while there are many things that Tableau *can* be used for, but many of those things are better off created in another program like Figma. This is one of those things. 
-- Nevertheless, this is exactly how I wanted to visualize how much larger the Mario franchise is than any other genre. I'm very satisfied with the result.
+     
+- While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. 
+- Nevertheless, tackling juxtaposition with this visualization turned out to be a great choice. I'm very satisfied with the result.
 ## Dashboard Highlights
 
 **The Platform/Genre Bar Graph**
