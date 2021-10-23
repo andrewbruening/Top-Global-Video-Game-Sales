@@ -25,10 +25,17 @@ This readme includes various screenshots, but you can view the actual dashboard 
 **The Platform/Genre Bar Graph** 
 ![](Dashboard_Screenshots/platform_bar_gif.gif)
 - This graph was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
-- Each shade of blue represents a different genre within each platform, ordered by # of sales. 
+- Each shade of blue details a different genre within each platform, ordered by # of sales. 
 - Tooltips can be accessed by hovering. Controller icons display similar platform stats (excluding genres)
 - Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
 
+**Overlapping Circle Graph** 
+![](Dashboard_Screenshots/overlapping_circle_16x9.png)
+- Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my rows and columns for this visual.
+    Columns: SIN([Index -1]*PI()/180)*[TC Value]
+    Rows: COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
+- I've learned that while there are many things that Tableau *can* be used for, but many of those things are better off created in another program like Figma. This is one of those things. 
+- Nevertheless, this is exactly how I wanted to visualize how much larger the Mario franchise is than any other genre. I'm very satisfied with the result.
 ## Dashboard Highlights
 
 **The Platform/Genre Bar Graph**
