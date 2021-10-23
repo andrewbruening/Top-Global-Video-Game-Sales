@@ -10,6 +10,7 @@
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
 ## The Top 1000 Most Successful Video Game Titles 
+**by Platform, Publisher, Genre, Region, and Year.**
 
 ![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
