@@ -9,7 +9,8 @@
 - 🧠 I'm interested in how our social climate and media trends influence marketing needs
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
-## The Top 1000 Most Successful Video Game Titles by Year, Platform, Publisher, Genre, and Region.
+## The Top 1000 Most Successful Video Game Titles 
+**by Year, Platform, Publisher, Genre, and Region.**
 
 ![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
@@ -61,10 +62,10 @@ I was interested to see how each Publisher found their niche within their respec
 
 ### Looking Back:
 
-1. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
-2. The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with as thorough regex and merges in the way that I did -- Noted!
-3. 'steam' was pleasant to work with, and was prioritized for its sales data
-4. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
+- 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
+- 'steam' was pleasant to work with, and was prioritized for its sales data
+- To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
+- The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with the regex and merges in the way that I did -- Noted!
 
 ### Moving Forward:
 
