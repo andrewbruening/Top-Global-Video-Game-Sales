@@ -33,11 +33,11 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 **Overlapping Circle Graph** 
 ![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
-- Graphs like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills for this visual.
+- Visualizations like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills:
  
-    **Columns:** SIN([Index -1]*PI()/180)*[TC Value]
+    **Columns:** SIN([Index -1]\*PI()/180)\*[TC Value]
      
-    **Rows:** COS([Index -1]*PI()/180)*([TC Value])+([TC Value])
+    **Rows:** COS([Index -1]\*PI()/180)\*([TC Value])+([TC Value])
      
 - While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. Building it in Tableau was less than intuitive, but it's important to note that the circles **are** proportional to each subgroup's sales totals.
 - In conclusion, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
@@ -61,15 +61,16 @@ I was interested to see how each Publisher found their niche within their respec
 
 ### Looking Back:
 
-1. Both 'games' and 'steam' were adequately-sized datasets
-2. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
-3. The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with as thorough regex and merges in the way that I did -- Noted!
-4. 'steam' was pleasant to work with, and was prioritized for its sales data
-5. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
+1. 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
+2. The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with as thorough regex and merges in the way that I did -- Noted!
+3. 'steam' was pleasant to work with, and was prioritized for its sales data
+4. To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
 
 ### Moving Forward:
 
-1. These datasets didn't include the measures necessary for a financial analysis. In the future, I'd like to work with a dataset that provides insight into how publishers prioritize budgets for certain franchises with regards to their profit margins. With the proper data, I'd like to see tiered lists for publishers and their respective franchises (e.g. Nintendo's Tier 1 would surely include the Mario franchise. How would other franchises like Kirby, Metroid, Zelda, etc. rank?)
+These datasets didn't include the measures necessary for a financial analysis. In the future, I'd like to work with a dataset that provides insight into how publishers prioritize budgets for certain franchises with regards to their profit margins. With the proper data, I'd like to see tiered lists for publishers and their respective franchises. 
+
+Nintendo's Tier 1 would surely include the Mario franchise. How would other franchises like Kirby, Metroid, Zelda, etc. rank?)
 
 ## See the complete interactive dashboard [here]
 
