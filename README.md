@@ -32,7 +32,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 - Tooltips can be accessed by hovering. Controller icons display similar platform stats (excluding genres)
 - Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
 
-**Overlapping Circle Graph** 
+**Overlapping Circle Viz** 
 ![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
 - Visualizations like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills:
  
@@ -60,14 +60,14 @@ The most successful Publishers found their niches within specific genres and wer
 
 - **The Shift in Shooters:** The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
 
-### Looking Back:
+### Looking Back
 
 - 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
 - 'steam' was pleasant to work with, and was prioritized for its sales data
 - To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
 - The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with the regex and merges in the way that I did -- Noted!
 
-### Moving Forward:
+### Moving Forward
 
 These datasets didn't include the measures necessary for a financial analysis. In the future, I'd like to work with a dataset that provides insight into how publishers prioritize budgets for certain franchises with regards to their profit margins. With the proper data, I'd like to see tiered lists for publishers and their respective franchises. 
 
