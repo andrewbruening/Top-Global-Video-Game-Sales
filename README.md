@@ -45,7 +45,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 **Publisher Bubble Chart**
 ![](Dashboard_Screenshots/publishers_gif.gif)
-I was interested to see how each Publisher found their niche within their respective genres. We know that Nintendo is world-famous for their IP platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their priorities?
+The most successful Publishers found their niches within specific genres and were able to corner a large portion of the market by doing so. We know that Nintendo is world-famous for their first-party platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their priorities?
 
 
 ## Data Insights
