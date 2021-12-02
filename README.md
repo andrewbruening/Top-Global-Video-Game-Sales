@@ -22,6 +22,13 @@ This readme includes various screenshots, but you can view the actual dashboard 
 3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for use in Tableau.
 4. The dashboard's background/style was designed in Figma then built in Tableau.
 
+**Update: This was an early project. The logic used in my notebook is a tad obsolete.
+- I'm primarily referring to the join of the two datasets. 
+- The overlap between the two is negligible, and efforts to clean/join were ultimately not very fruitful. 
+- Had I approached this project with the skill set I have now, I would not have gone through the trouble of cleaning both datasets, and only used one.
+
+Still, this was a fun and educational project!
+
 
 ## Dashboard Highlights
 
