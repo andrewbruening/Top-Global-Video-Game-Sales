@@ -25,9 +25,9 @@ This readme includes various screenshots, but you can view the actual dashboard 
 **Update: This was an early project. The logic used in my notebook is a tad obsolete.
 - I'm primarily referring to the join of the two datasets. 
 - The overlap between the two is negligible, and efforts to clean/join were ultimately not very fruitful. 
-- Had I approached this project with the skill set I have now, I would not have gone through the trouble of cleaning both datasets, and only used one.
+- Had I approached this project with the expertise I have now, I would only have used one of these datasets.
 
-Still, this was a fun and educational project!
+Still, this was a fun and educational project! Great practice.
 
 
 ## Dashboard Highlights
